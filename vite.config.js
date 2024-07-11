@@ -5,6 +5,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/login-md5/",
   plugins: [vue()],
   resolve: {
     alias: {
